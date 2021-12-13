@@ -1,0 +1,26 @@
+Dec 10th Bootcamp Session - Web Scraping part:
+
+
+
+Presentation: 
+https://docs.google.com/presentation/d/1hxhwhsjl6YE9q74MDWEK1939A6wvwHnuuTviAgYZdYc/edit?usp=sharing
+
+
+Selenium part scraping shown: 
+https://github.com/indicwiki-iiit/Cricket-players/blob/main/scraping/scrape.ipynb
+
+
+Beautifulsoup part scraping shown: 
+https://github.com/indicwiki-iiit/schools/blob/main/curDir/scrape_new_data/extract_urls.py
+and
+https://github.com/indicwiki-iiit/schools/blob/main/curDir/scrape_new_data/extract_info.py
+
+
+Example sources shown: 
+https://www.espncricinfo.com/player/virat-kohli-253802/bowling-batting-stats
+and
+https://schools.org.in
+
+
+SPARQL query for extracting images from wikidata (cricketers): 
+https://query.wikidata.org/#SELECT%20%3Fperson%20%3FpersonLabel%20%3Fimage%20%3Fc%20WHERE%20%7B%0A%20%20%0A%20%20%20%20%3Fperson%20wdt%3AP106%20wd%3AQ12299841%20.%0A%20%20%20%20%3Fperson%20wdt%3AP18%20%3Fimage%20.%0A%20%20%20%20%3Fperson%20wdt%3AP2697%20%3Fc%20.%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D
